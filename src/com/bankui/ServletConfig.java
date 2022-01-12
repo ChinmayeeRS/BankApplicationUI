@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.bankui.controller"})
+@ComponentScan(basePackages = {"com.bankui.controller","com.bankui.beans"})
 		// , "com.bankui.db", "com.bankui.model","com.bankui.service"})
 public class ServletConfig implements WebMvcConfigurer{
 
@@ -32,3 +32,48 @@ public class ServletConfig implements WebMvcConfigurer{
 		return dataSource; 
 	}    */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
